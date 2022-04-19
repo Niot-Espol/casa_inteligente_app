@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:niot_app/ui/inicio.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(InicioApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
@@ -38,8 +38,8 @@ class _MyHomePageState extends State<MyHomePage> {
     final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(
       onPrimary: Colors.black,
       primary: Colors.purple[300],
-      minimumSize: Size(88, 36),
-      padding: EdgeInsets.symmetric(horizontal: 16),
+      minimumSize: const Size(88, 36),
+      padding: const EdgeInsets.symmetric(horizontal: 16),
       shape: const RoundedRectangleBorder(
         borderRadius: BorderRadius.all(Radius.circular(2)),
       ),
