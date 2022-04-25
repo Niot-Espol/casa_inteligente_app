@@ -16,5 +16,5 @@ class AppColors {
       900: Color(0xFF9752FC),
     },
   );
-  static const Color primaryColor =  Color(0xFF9752FC);
+  static const Color primaryColor =  Colors.purple;
 }

@@ -37,9 +37,9 @@ class _SplashView extends State<SplashView> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
              Container(
-               width: MediaQuery.of(context).size.width/4,
-               height: MediaQuery.of(context).size.width/4,
-              child:  Image(image: AssetImage('assets/images/sinfondo1.png')),
+               width: MediaQuery.of(context).size.width*0.5,
+               height: MediaQuery.of(context).size.width*0.5,
+              child:  Image(image: AssetImage('assets/images/logo_blanco.png')),
             ),
             const SizedBox(
               height: 16,
